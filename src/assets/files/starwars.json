@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "name"  : "Han",
+            "state" : "Look, kid",
+            "description": "Al infinito y más allá",
+            "image": "avatar-han.png"
+        },
+        {
+            "name"  : "Luke",
+            "state" : "Debes mirar al frente",
+            "description": "¿Quien es mi padre?",
+            "image": "avatar-luke.png"
+        },
+        {
+            "name"  : "Leia",
+            "state" : "Tu eres mi última esperanza",
+            "description": "A gozar a gozar",
+            "image": "avatar-leia.png"
+        },
+        {
+            "name"  : "Finn",
+            "state" : "finn el humano kiee",
+            "description": "inserte texto de ejemplo",
+            "image": "avatar-finn.png"
+        },
+        {
+            "name"  : "Poe",
+            "state" : "mundo hola",
+            "description": "para elimnar la pobresa debemos matar a los pobres",
+            "image": "avatar-poe.png"
+        },
+        {
+            "name"  : "Rey",
+            "state" : "HOLA MUNDO PERO EN MAYUSCULAS",
+            "description": "hola",
+            "image": "avatar-rey.png"
+        },
+        {
+            "name"  : "Yoda",
+            "state" : "hola mundo",
+            "description": "asdasdasd",
+            "image": "avatar-yoda.png"
+        }
+    ]
+}

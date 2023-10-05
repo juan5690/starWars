@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Personajes star wars</ion-title>
+    <ion-searchbar (ionInput)="buscar($event)"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let p of encontrados">
+      <ion-avatar slot="start">
+        <img src="../../assets/imagenes/{{p.image}}">
+      </ion-avatar>
+      <ion-label>
+        <h2 class="colorVerde">{{p.name}}</h2>
+        <h3>{{p.state}}</h3>
+        <p>{{p.description}}</p>
+    </ion-label>
+    </ion-item>
+    
+  </ion-list>
+</ion-content>
